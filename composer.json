@@ -13,12 +13,6 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "url": "https://github.com/ekrembk/backblaze-b2",
-            "type": "git"
-        }
-    ],
     "require": {
         "php": ">=5.6.0",
         "league/flysystem": "~1.0",
