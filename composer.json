@@ -16,7 +16,7 @@
     "require": {
         "php": ">=5.6.0",
         "league/flysystem": "~1.0",
-        "ekrembk/backblaze-b2": "dev-master",
+        "ekrembk/backblaze-b2": "^1.0.5",
         "psr/http-message-implementation": "*",
         "mikey179/vfsStream": "*"
     },
