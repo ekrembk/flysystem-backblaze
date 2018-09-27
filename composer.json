@@ -1,5 +1,5 @@
 {
-    "name": "mhetreramesh/flysystem-backblaze",
+    "name": "ekrembk/flysystem-backblaze",
     "type": "library",
     "description": "Backblaze adapter for the flysystem filesystem abstraction library",
     "keywords": ["flysystem", "filesystem", "api", "backblaze", "client"],
@@ -13,16 +13,10 @@
             "role": "Developer"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "http://github.com/ekrembk/backblaze-b2"
-        }
-    ],
     "require": {
         "php": ">=5.6.0",
         "league/flysystem": "~1.0",
-        "gliterd/backblaze-b2": "dev-sha-fix",
+        "ekrembk/backblaze-b2": "dev-sha-fix",
         "psr/http-message-implementation": "*",
         "mikey179/vfsStream": "*"
     },
